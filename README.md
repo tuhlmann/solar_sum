@@ -14,7 +14,7 @@ Go to the [Rust website](https://www.rust-lang.org/tools/install) and follow the
 To run it, type:
 
 ```bash
-cargo run -- -find <file>
+cargo run -- -f <file>
 ```
 
 Where `<file>` is the path to the CSV file or a directory containing the CSV files.
