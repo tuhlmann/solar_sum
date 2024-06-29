@@ -21,6 +21,11 @@ Where `<file>` is the path to the CSV file or a directory containing the CSV fil
 If you give it a directory, it will read all the CSV files in the directory and calculate the total sum for all the individual files.
 Please note that the application will not traverse subdirectories.
 
+## Important
+
+At the moment, the application expects the column so sum up at position 4 (the 4th column) in the CSV file.
+
+
 The sum is printed to the console in Wh, KWh and MWh.
 
 If there is demand, I'll release binary versions for this application, please let me know if you need it.
